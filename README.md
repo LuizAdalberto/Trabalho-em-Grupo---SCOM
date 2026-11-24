@@ -6,7 +6,7 @@ Trabalho em grupo — UNESP. Todos os dados ficam **somente no celular** (nada �
 
 ## Instalação (Android)
 
-1. Baixe o arquivo `.apk` mais recente em **Releases** deste repositório: `LINK_DA_RELEASE_AQUI`.
+1. Baixe o arquivo `.apk` mais recente em **Releases** deste repositório: `[LINK_DA_RELEASE_AQUI](https://github.com/LuizAdalberto/Trabalho-em-Grupo---SCOM/releases/tag/v1)`.
 2. Abra o arquivo no celular e permita "instalar apps de fontes desconhecidas" quando o Android pedir.
 3. Abra o app, crie uma conta local (nome e senha) e permita câmera e notificações.
 4. Para os alarmes tocarem com o app fechado, em alguns aparelhos (ex.: Xiaomi) ative "Início automático", bateria "Sem restrições" e a permissão "Alarmes e lembretes".
