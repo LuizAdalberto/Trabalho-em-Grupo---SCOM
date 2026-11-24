@@ -1,0 +1,62 @@
+﻿node.exe : PASS __tests__/stock.test.ts
+No linha:1 caractere:1
++ & "C:\Users\Usuario\Arquivos - Luiz\Escola\REU\Vlibras\vlibras-web-br ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (PASS __tests__/stock.test.ts:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  lowThreshold
+    ÔêÜ ├® a quantidade necess├íria para uma semana (5 ms)
+  dosesBetween
+    ÔêÜ conta as doses em um intervalo (1 ms)
+    ÔêÜ para de contar na data final (1 ms)
+    ÔêÜ ├® zero quando nenhuma dose cai no intervalo
+  planStockAlert
+    ÔêÜ avisa agora quando j├í n├úo d├í para uma semana (1 ms)
+    ÔêÜ agenda o aviso para quando cruzar o limite
+    ÔêÜ n├úo avisa se o rem├®dio dura mais que o alarme (1 ms)
+
+PASS __tests__/format.test.ts
+  maskTime
+    ÔêÜ coloca os dois pontos (5 ms)
+    ÔêÜ limita a 4 n├║meros (1 ms)
+  maskDate
+    ÔêÜ coloca as barras (1 ms)
+    ÔêÜ ignora letras e limita a 8 n├║meros
+
+PASS __tests__/match.test.ts
+  tokenize
+    ÔêÜ tira acentos, pontua├º├úo e deixa min├║sculo (4 ms)
+  findBestMatch
+    ÔêÜ acha o rem├®dio pelo nome exato (1 ms)
+    ÔêÜ tolera erro de leitura do OCR (1 ms)
+    ÔêÜ acha quando o OCR junta duas palavras (1 ms)
+    ÔêÜ escolhe o cadastro que combina mais palavras
+    ÔêÜ n├úo confunde rem├®dios diferentes (1 ms)
+    ÔêÜ ignora palavras comuns de caixa e n├║meros
+    ÔêÜ devolve null com texto vazio ou sem rem├®dios (1 ms)
+    ÔêÜ n├úo aceita palavra curta parecida por acaso
+
+PASS __tests__/schedule.test.ts
+  parseTime
+    ÔêÜ aceita hor├írios v├ílidos (7 ms)
+    ÔêÜ recusa hor├írios inv├ílidos (1 ms)
+  datas
+    ÔêÜ converte DD/MM/AAAA para ISO e volta (1 ms)
+    ÔêÜ recusa datas que n├úo existem (1 ms)
+  nextOccurrences
+    ÔêÜ gera hor├írios a cada 8 horas a partir do primeiro (2 ms)
+    ÔêÜ respeita a data final (1 ms)
+    ÔêÜ n├úo devolve hor├írios que j├í passaram
+    ÔêÜ limita a quantidade agendada
+  dailyTimes
+    ÔêÜ usa alarme di├írio quando as horas dividem 24 e n├úo h├í data final (1 ms)
+    ÔêÜ n├úo usa alarme di├írio com data final ou intervalo que n├úo divide 24 (1 ms)
+  describeAlarm
+    ÔêÜ monta o texto da tela (2 ms)
+
+Test Suites: 4 passed, 4 total
+Tests:       31 passed, 31 total
+Snapshots:   0 total
+Time:        2.623 s, estimated 4 s
+Ran all test suites.
